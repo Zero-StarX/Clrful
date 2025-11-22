@@ -1,0 +1,25 @@
+{
+  "name": "clrful",
+  "version": "0.1",
+  "description": "ANSI colors, gradients, rainbow effects, and figlet ASCII art for terminal.",
+  "keywords": [
+    "cli",
+    "colors",
+    "gradient",
+    "rainbow",
+    "figlet",
+    "ansi"
+  ],
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.js"
+  },
+  "dependencies": {
+    "figlet": "^1.6.0"
+  },
+  "author": "Zero",
+  "license": "MIT"
+}
